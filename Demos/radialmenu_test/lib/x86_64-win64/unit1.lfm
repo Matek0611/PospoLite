@@ -1,0 +1,246 @@
+object Form1: TForm1
+  Left = 385
+  Height = 437
+  Top = 250
+  Width = 616
+  Caption = 'Form1'
+  ClientHeight = 437
+  ClientWidth = 616
+  OnClose = FormClose
+  OnCreate = FormCreate
+  object Memo1: TMemo
+    Left = 28
+    Height = 248
+    Top = 33
+    Width = 447
+    Lines.Strings = (
+      'Memo1'
+    )
+    PopupMenu = plxRadialMenu1
+    TabOrder = 0
+  end
+  object ImageList1: TImageList
+    left = 98
+    top = 150
+    Bitmap = {
+      4C69010000001000000010000000000000000000000000000000000000005B2F
+      1B035B2F1B3E63331D83754934BE6F412DB762321D765B2F1B34000000000000
+      00000000000000000000000000000000000000000000000000005C301B2A835C
+      49D7D4BFB7FCEFE5E2FFFDFAFCFFFDF9FAFFECDFDCFFCCB4ACFA794D3BC45B2F
+      1B17000000000000000000000000000000000000000064331E65AB8B7EF0EFE2
+      E0FFF2E7E5FFF2E7E5FFF0E5E3FFF2E7E5FFF2E7E5FFF2E7E5FFEBDDD8FF9975
+      68EC61321D3F0000000000000000000000005B2F1B1F9C7869F0E8D5CFFFE8D5
+      CFFFB4A5A1FFE8D5CFFFB6A7A2FF494341FFE2CFC9FFE8D5CFFFE8D5CFFFE7D5
+      CEFF865F4FE95B2F1B0C0000000000000000744936D1D8BCB2FFDDC3B9FFD5BC
+      B2FF241F1EFF83736EFF736660FF000000FF655955FFDDC3B9FFDDC3B9FFCCB4
+      AAFFCFB2A6FF6B3E2BB6000000005B2F1B1EA07A6BF6D2B0A3FFD2B0A3FF9A81
+      78FF000000FF201B19FF988076FF040303FF3E3430FFD2B0A3FF947C73FF5244
+      3FFFD2B0A3FF8C6657F35B2F1B025F311C56B08472FEC79F8DFFC79F8DFFB893
+      82FF231C19FF1B1613FFA78576FF7F665AFFAC897AFFC59D8BFF201A17FF0F0C
+      0BFFBB9685FF9C7462FB57312030633520A7C39A85FFA38271FF997A6AFFC098
+      84FFC79F8AFFC89F8AFFC9A08BFFC9A08BFFC9A08BFF9A7A6AFF010101FF1D17
+      14FFC59D88FFB58B76FF5835257C5E36249AC19778FFB39073FF060504FF1B15
+      11FF9B7C63FFCEA584FF826853FF3D3127FF3A2F25FFAA896DFF8D715BFFA685
+      6AFFCEA584FFB2876CFD51382C7B57342448B2865FFED5A978FF594632FF0000
+      00FF4C3C2BFFC89E70FF080604FF000000FF000000FF120F0AFF70593FFFD5A9
+      78FFD5A978FF9D7452FB4D3D37345B2F1B0A8F6440F8DBAE6CFFDBAD6CFF9F7E
+      4EFFCEA366FF715937FF000000FF000000FF000000FF000000FF010100FF9878
+      4BFFDAAC6BFF7A5135F655555503000000005B3728B7C3914EFEE4B45FFFE4B4
+      5FFFE4B45FFF3C2F19FF000000FF000000FF000000FF040301FF392D18FFCDA3
+      55FFAF7E45FD513A30A800000000000000003E322C076E4327EEDFAB4EFFEFBF
+      55FFF0C055FFA4833AFF403317FF4A3B1AFF7E652DFFC49D45FFEFBF55FFD49F
+      4AFF613C28E74D4D4D0A0000000000000000000000004B393231643B27EBBF89
+      37FEF9C645FFFBC746FFFBC846FFFBC846FFFBC746FFF6C245FFAD7933FD5C39
+      29E5453E3B32000000000000000000000000000000000000000049494907573B
+      2CAB6E4328F591602BFAB57F32FDAF7A31FD8B5C2AFA683F26F4503D339F4040
+      400C000000000000000000000000000000000000000000000000000000000000
+      00003B3B3B0D494342374D3D347A4C3E36784642413B40404010000000000000
+      0000000000000000000000000000
+    }
+  end
+  object ActionList1: TActionList
+    Images = ImageList1
+    left = 227
+    top = 125
+    object EditCut1: TEditCut
+      Category = 'Edit'
+      Caption = 'Wy&tnij'
+      Hint = 'Wytnij'
+      ImageIndex = 0
+      ShortCut = 16472
+    end
+    object EditCopy1: TEditCopy
+      Category = 'Edit'
+      Caption = '&Kopiuj'
+      Hint = 'Kopiuj'
+      ImageIndex = 0
+      ShortCut = 16451
+    end
+    object EditPaste1: TEditPaste
+      Category = 'Edit'
+      Caption = 'Wkl&ej'
+      Hint = 'Wklej'
+      ImageIndex = 0
+      ShortCut = 16470
+    end
+  end
+  object plxRadialMenu1: TplxRadialMenu
+    Items = <    
+      item
+        Action = EditCopy1
+        Caption = '&Kopiuj'
+        Checked = False
+        Enabled = True
+        Hint = 'Kopiuj'
+        ImageIndex = 0
+        Visible = True
+        Items = <>
+      end    
+      item
+        Action = EditCut1
+        Caption = 'Wy&tnij'
+        Checked = False
+        Enabled = True
+        Hint = 'Wytnij'
+        ImageIndex = 0
+        Visible = True
+        Items = <>
+      end    
+      item
+        Action = EditPaste1
+        Caption = 'Wkl&ej'
+        Checked = False
+        Enabled = True
+        Hint = 'Wklej'
+        ImageIndex = 0
+        Visible = True
+        Items = <>
+      end    
+      item
+        Caption = 'Item'
+        Checked = False
+        Enabled = True
+        ImageIndex = -1
+        Visible = True
+        Items = <>
+      end    
+      item
+        Caption = 'Item'
+        Checked = False
+        Enabled = True
+        ImageIndex = -1
+        Visible = False
+        Items = <>
+      end    
+      item
+        Caption = 'Item'
+        Checked = False
+        Enabled = True
+        ImageIndex = -1
+        Visible = True
+        Items = <        
+          item
+            Caption = 'Item'
+            Checked = False
+            Enabled = True
+            ImageIndex = -1
+            Visible = True
+            Items = <>
+          end>
+      end    
+      item
+        Caption = 'Item'
+        Checked = False
+        Enabled = True
+        ImageIndex = -1
+        Visible = True
+        Items = <        
+          item
+            Caption = 'Item'
+            Checked = False
+            Enabled = True
+            ImageIndex = -1
+            Visible = True
+            Items = <>
+          end        
+          item
+            Caption = 'Test'
+            Checked = False
+            Enabled = True
+            ImageIndex = -1
+            Visible = True
+            Items = <            
+              item
+                Caption = 'Item'
+                Checked = False
+                Enabled = True
+                ImageIndex = -1
+                Visible = True
+                Items = <>
+              end            
+              item
+                Action = EditPaste1
+                Caption = 'Wkl&ej'
+                Checked = False
+                Enabled = True
+                Hint = 'Wklej'
+                ImageIndex = 0
+                Visible = True
+                Items = <>
+              end>
+          end        
+          item
+            Caption = 'Item'
+            Checked = True
+            Enabled = True
+            ImageIndex = -1
+            Visible = True
+            OnClick = plxRadialMenu1Items6Items2Click
+            Items = <>
+          end        
+          item
+            Action = EditCopy1
+            Caption = '&Kopiuj'
+            Checked = False
+            Enabled = True
+            Hint = 'Kopiuj'
+            ImageIndex = 0
+            Visible = True
+            Items = <>
+          end>
+      end    
+      item
+        Caption = 'Item'
+        Checked = False
+        Enabled = True
+        ImageIndex = -1
+        Visible = False
+        Items = <>
+      end    
+      item
+        Caption = 'Item'
+        Checked = False
+        Enabled = True
+        ImageIndex = -1
+        Visible = True
+        Items = <>
+      end>
+    Images = ImageList1
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Quality = fqCleartypeNatural
+    Style.Background = clWhite
+    Style.Border = 15457010
+    Style.BorderMoreBtn = 8075648
+    Style.BorderMoreBtnHover = 9786011
+    Style.BtnActive = 12026043
+    Style.BtnHover = 8075648
+    Style.Arrow = clWhite
+    Metrics.R = 150
+    Metrics.RBtn = 25
+    Metrics.Border = 25
+    Metrics.Animation = True
+    left = 335
+    top = 75
+  end
+end
