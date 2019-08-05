@@ -46,7 +46,6 @@ unit PospoLite.Menus.Radial;
 {
   --LICENCE--
 }
-{$i LICENCE.txt}
 {$warning Please read the license (LICENCE.txt) before using PospoLite library!}
 
 {
