@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="plRadials_laz"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files Count="2">
+      <Item1>
+        <Filename Value="pospolite.menus.radial.pas"/>
+        <UnitName Value="PospoLite.Menus.Radial"/>
+      </Item1>
+      <Item2>
+        <Filename Value="pospolite.radials.registerall.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="Pospolite.Radials.RegisterAll"/>
+      </Item2>
+    </Files>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="controltimer"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="BGRABitmapPack"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+        <MinVersion Major="2" Valid="True"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

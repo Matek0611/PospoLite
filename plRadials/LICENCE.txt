@@ -1,0 +1,36 @@
+(*
+
+-- PospoLite --
+Created By Marcin Stefanowicz (Matek)
+Email: matiowo@wp.pl
+Wiki: https://wiki.lazarus.freepascal.org/PospoLite
+
+Copyright (C) 2019 by Marcin Stefanowicz (Matek)
+
+This software is provided 'as-is', without any expressed or implied warranty. 
+In no event will the author be held liable for any damages arising from 
+the use of this software.
+Permission is granted to anyone to use this software for any kind of application, 
+and to alter it and redistribute it freely, subject to the following restrictions:
+
+1) The origin of this software must not be misrepresented, you must not claim that 
+you wrote the original software.
+
+2) Altered source versions must be plainly marked as such, and must not be 
+misrepresented as being the original software.
+
+3) You must have a visible line in your programs aboutbox or documentation that 
+it is made using PospoLite library, where it can be found and which components 
+do you use. Example information is given below: 
+  PospoLite
+  Created by: Marcin Stefanowicz (Matek)
+  Uses: TplxRadialMenu
+  https://wiki.lazarus.freepascal.org/PospoLite
+
+4) This notice may not be removed or altered from any source distribution.
+
+If you have any questions concerning this license contact matiowo@wp.pl.
+
+Marcin Stefanowicz (Matek)
+
+*)
