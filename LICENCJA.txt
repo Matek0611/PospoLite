@@ -5,7 +5,7 @@ Stworzona przez Marcina Stefanowicza (Matek)
 E-mail: matiowo@wp.pl
 Wiki: https://wiki.lazarus.freepascal.org/PospoLite
 
-Copyright (C) 2019 by Marcin Stefanowicz (Matek)
+Copyright (C) 2019 Marcin Stefanowicz (Matek)
 
 To oprogramowanie jest dostarczane „takie, jakie jest”, bez żadnej wyraźnej ani dorozumianej 
 gwarancji. W żadnym wypadku autor nie ponosi odpowiedzialności za jakiekolwiek szkody wynikające 
