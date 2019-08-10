@@ -1,0 +1,36 @@
+(*
+
+-- PospoLite --
+Stworzona przez Marcina Stefanowicza (Matek)
+E-mail: matiowo@wp.pl
+Wiki: https://wiki.lazarus.freepascal.org/PospoLite
+
+Copyright (C) 2019 by Marcin Stefanowicz (Matek)
+
+To oprogramowanie jest dostarczane „takie, jakie jest”, bez żadnej wyraźnej ani dorozumianej 
+gwarancji. W żadnym wypadku autor nie ponosi odpowiedzialności za jakiekolwiek szkody wynikające 
+z korzystanie z tego oprogramowania.
+Zezwala się każdemu na korzystanie z tego oprogramowania do dowolnego rodzaju aplikacji,
+oraz w celu zmiany i swobodnego rozpowszechniania, z zastrzeżeniem następujących ograniczeń:
+
+1) Pochodzenie tego oprogramowania nie może być fałszywie przedstawiane, nie możesz twierdzić,
+że napisałeś oryginalne oprogramowanie.
+
+2) Zmienione wersje źródłowe muszą być wyraźnie oznaczone jako takie i nie mogą być fałszywie 
+przedstawiane jako oryginalne oprogramowanie.
+
+3) Musisz zawrzeć taki fakt w informacjach o swoim programie lub dokumentacji, że jest tworzony
+przy użyciu biblioteki PospoLite, gdzie można go znaleźć, oraz które komponenty używasz. 
+Przykładowe informacje podane są poniżej:
+  PospoLite
+  Stworzone przez: Marcin Stefanowicz (Matek)
+  Użyto: TplxRadialMenu
+  https://wiki.lazarus.freepascal.org/PospoLite
+
+4) To powiadomienie nie może zostać usunięte ani zmienione z jakiejkolwiek dystrybucji źródłowej.
+
+Jeśli masz jakieś pytania dotyczące tej licencji, skontaktuj się mailowo na adres matiowo@wp.pl.
+
+Marcin Stefanowicz (Matek)
+
+*)
