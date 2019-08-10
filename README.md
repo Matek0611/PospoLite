@@ -1,4 +1,4 @@
-# PospoLite library
+# PospoLite library v1.0.0
 
 ### Includes:
 
