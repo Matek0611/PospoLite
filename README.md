@@ -3,6 +3,7 @@
 ### Includes:
 
 * Demos (in _Demos_ directory)
+* Licence (_LICENCE.txt_)
 
 Components:
 
